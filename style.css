@@ -1,0 +1,14 @@
+footer {
+  display: flex;
+  list-style: none;
+  background: #889e81;
+  margin: 0;
+}
+
+nav ul {
+  
+}
+
+.logoFooter {
+  width: 20%;
+}
