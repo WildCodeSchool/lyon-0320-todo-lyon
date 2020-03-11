@@ -1,3 +1,64 @@
+/* PAGE SPORT */
+
+.imgsport {
+	width: 40%;
+}
+
+
+/* Section Carousel (1ère section) */
+div#slider {
+    max-width: 100%;
+	overflow: hidden;
+	width: 100%;
+}
+  div#slider figure {
+    position: relative;
+    width: 505%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    animation: 8s AutoSlide infinite;
+  }
+  @keyframes AutoSlide {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -102%; }
+    45% { left: -103%; }
+    50% { left: -201%; }
+    70% { left: -205%; }
+    75% { left: -305%; }
+    95% { left: -305%; }
+    100% { left: 0%; }
+  }
+
+  div#slider figure img {
+    width: 20%;
+	height: 700px;
+ }
+
+
+/* Seconde section page sport */
+
+#mainTitleSport {
+	text-align:center;
+}
+
+.secondTitleSport {
+	text-align:center;
+}
+
+.blocSport {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin-left: 30px;
+}
+
+
+
+/* FOOTER COMMUN A L'ENSEMBLE DES PAGES HTML */
+
 html {
 	height: 100%;
 }
@@ -9,17 +70,60 @@ body {
 	flex-direction: column;
 }
 
+a {
+	text-decoration: none;
+}
+
 footer {
-  display: flex;
-  background: #889e81;
-  margin-top: 0;
+	background: #889e81;
+	display: flex;
+	margin-top: auto;
+	height: 5%;
+	align-items: center;
 }
 
-nav .listeFooter {
+
+#logoFooter {
+	width: 50%;
+	margin-left: 25%;
+}
+
+.navListeFooter {
+	width: 50%;
+	margin-left: 20%;
+}
+
+.listeFooter {
+	line-height: 1.5;
+}
+
+.listeFooter, .socialNetworks {
 	list-style: none;
-  	justify-content: center;
+	text-align: center;
+	margin-left: 30%;
 }
 
-.logoFooter {
-  width: 20%;
+#followUs {
+	margin-left: 55%;
+}
+
+.socialNetworks {
+	display: flex;
+}
+
+
+.facebook, .twitter, .instagram {
+	width: 20%;
+}
+
+.thirdcolumn {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#research {
+	margin-left: 40%;
+	margin-bottom: 10%;
 }
