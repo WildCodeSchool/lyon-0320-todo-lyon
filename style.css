@@ -214,5 +214,31 @@ form {
 	margin-bottom: 5%;
 }
 
+/* Media queries Footer */
+
+@media only screen and (min-width: 500px) {
+	nav .listeFooter {
+		display: flex;
+	}
+
+	.navListeFooter {
+		width: 100%;
+		margin-left: 18%;
+	}
 
 
+	.listeFooter {
+		width: 100%;
+		padding-left: 0;
+		margin-left: 5%;
+	}
+
+	.listeFooter li {
+		margin-left: 5%;
+	}
+
+	#thirdcolumn {
+		width: 50%;
+	}
+
+}
