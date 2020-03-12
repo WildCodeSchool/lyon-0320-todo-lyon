@@ -190,6 +190,7 @@ div.firstSectionSport {
     flex-direction: column;
     justify-content: center;
 	align-items: center;
+	padding-top: 2%;
 }
 
 .imgsport {
@@ -222,6 +223,7 @@ div.firstSectionSport {
 	text-align: justify;
 	font-family: 'Bellota', cursive;
 }
+
 
 .blocSport {
 	display: flex;
@@ -559,7 +561,7 @@ h4{
 
 /* Media queries page Sport */
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1000px) {
 	.mapSports {
 		display: none;
 	}
