@@ -11,7 +11,7 @@ main
 
 /* mise en page des titres de la section catégorie */
 
-h2 
+.titre-catégories
 { 
     font-size: 20px;
     display: flex;
