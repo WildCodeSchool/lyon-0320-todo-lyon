@@ -29,6 +29,17 @@
                 <h2>Slogan</h2>
                 <img src="" alt="fond d'écran">
             </section>
+
+            <!--paragraphe d'introduction-->
+            <section class="introduction">
+                <p>Pour vous aider à organiser votre séjour à Lyon, nous vous proposons des idées d'événements incontournables:
+                    <br>
+                    capital gastronomique, centre culturel, événements internationaux, paysage entre mer et montagne..
+                    vous apprécierez la qualité de vie, le dynamisme et le charme de la ville de Lyon.
+                    <br>
+                    Alors ? Partant pour une découverte ?
+                </p>
+            </section>
             
            <section id="Categories">
                 <h2>À lyon je veux...</h2>
@@ -115,45 +126,60 @@
                     molestiae cumque consectetur a, sunt odio debitis aut dolorum qui quae soluta temporibus.</p>
                 </div>
             </section>
-            
-            <section id="Contact">
-                <h2>Contactez-nous</h2>
 
-                <form>
+             <!--petit paragraphe à placer avant le formulaire-->
+             <p class="introduction">Notre petit conseil : armez-vous de vos appareils photos et partagez votre expérience</p>
+
+             <!--Formulaire de contact -->
+            <section id="Contact">
+                <h2 class="contact-h">Contactez-nous</h2>
+                <form class="form-M">
                     <fieldset>
                         <legend>Vos coordonnées</legend>
+
                             <div>
-                                <label for="email">*</label>
-                                <input type="email" id="email" name="email" placeholder="@ Votre mail" required/>
+                                <label class="Champ-O" for="email">*</label>
+                                <input class="int" type="email" id="email" name="email" placeholder="Votre mail" required/>
                             </div>
+
                             <div>
-                                <label for="nom">*</label>
-                                <input type="text" id="nom" name="nom" placeholder="Votre nom" required/>
+                                <label class="Champ-O" for="nom">*</label>
+                                <input class="int" type="text" id="nom" name="nom" placeholder="Votre nom" required/>
                             </div>
                     </fieldset>
-
+    
                     <fieldset>
                         <legend>Des questions ?</legend>
+
                             <div>
-                                <label for="objet">*</label>
-                                <input type="text" id="objet" name="objet" placeholder="Objet de votre demande" required/>
-                            </div>
-                            <div>
-                                <label for="message">*</label>
-                                <textarea id="message" name="message" placeholder="Votre message" required></textarea>
-                            </div>
-                            
-                            <div>
-                                <label for="pub">souhaites-tu recevoir la newsletter ?</label>
-                                <input type="checkbox" id="pub" name="pub" checked/>
+                                <label for="objet"></label>
+                                <select name="object" id="object">
+                                    <option>j'ai besoin d'un renseignement</option>
+                                    <option>Je rencontre unproblème</option>
+                                    <option>Je souhaite proposer une activité</option>
+                                    <option>others</option>
+                                </select>
                             </div>
 
                             <div>
-                                <button>Envoyer !</button>
+                                <label for="message"></label>
+                                <textarea id="message" name="message" placeholder="Votre message" required></textarea>
                             </div>
+                                
+                            <div>
+                                <label for="pub">Je souhaite recevoir la newsletters</label>
+                                <input class="int" type="checkbox" id="pub" name="pub" checked/>
+                            
+                            </div>
+    
+                            <div>
+                                <button id="button-M">Envoyer !</button>
+                            </div>
+
                     </fieldset>
-                            <h4>Les champs marqués par "*" sont obligatoires.</h4>
+                        <h4>Les champs marqués par "*" sont obligatoires.</h4>
                 </form>
+
             
             </section>
         
