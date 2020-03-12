@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+    
+    <head>
+
+        <title>ToDoLyon</title>
+        <meta name="Description" content="Site touristique répertoriant certaines
+        activités sur Lyon et ses alentours."/>
+        <meta charset="UTF-8"/>
+        <meta name="authors" content="Best equip"/>
+        <link rel="stylesheet" href="stylenature.css" />
+
+        
+    </head>
+
+    <body>
+
+        <header>
+            <h1>ToDoLyon</h1>
+            <nav>
+                <ul>
+                    <li><a href="#" title="Notre mascotte"><img src="URL Logo_TDL" alt="Logo_TDL"></a></li> <!-- ajouter URL-->
+                    <li><a href="#Categories" title="Trouver mon activité">Trouver mon activité</a></li>
+                    <li><a href="#Contact" title="Contactez-nous, on ne mord pas !">Contactez-nous !</a></li>
+                    <li><a href="URL_a_propos" title="Faites connaissance avec l'équipe !">On te parle de nous</a></li> <!-- Ajouter URL vers page "à propos" dans href -->
+                    <li><a href="URL_sondage" title="Que pensez-vous du site ?">Sondage</a></li> <!-- Ajouter URL vers page "sondage" dans href -->
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <section>
+                <h2 class="title_slogan">Be wild, be Lyon</h2>
+                <img id="slogan" src="https://i.imgur.com/tQ7Pepz.jpg" alt="image slogan">
+            </section>
+            
+            <div class="dropdown">
+              <button class="dropbtn">Escapades</button>
+              <div class="dropdown-content">
+                <a href="#Escapades_a_pieds">À pieds</a>
+                <a href="#Escapades_a_velo">En vélo</a>
+              </div>
+            </div>
+
+            <section>
+                <h2 id="Escapades_a_pieds">Escapades à pieds :</h2>
+                    <p>On vous propose une superbe randonnée où vous pourrez admirer quelques vestiges du passé glorieux de l'époque romaine.</p>
+
+                <!-- Carousel -->
+                <div class="carouselnature">
+                    <div class="slider">
+                        <figure>
+                            <img src="https://i.imgur.com/rT2dMH6.jpg" alt="Aqueduc entouré d'arbre">
+                            <img src="https://i.imgur.com/wBgPF0z.jpg" alt="Aqueduc avec ciel bleu">
+                            <img src="https://i.imgur.com/zO9C8Z7.jpg" alt="Chemin dans les bois">
+                            <img src="https://i.imgur.com/K1KmFLH.jpg" alt="Chemin sur une colline avec une maison dessus">
+                        </figure>
+                    </div>
+                </div>
+
+            </section>
+            
+            <section>
+                <h2 id="Escapades_a_velo">Escapades à Vélo :</h2>
+                    <p>Si vous cherchez un peu plus d'adrénaline, on peut vous proposer ce parcours de VTT à travers les Coteaux Lyonnais. Le parcours est plutôt facile et convient donc à toute la famille. Vous avez des parcours de VTT qui longent le chemin le plus facile. Parfait pour débuter !</p>
+
+                <!-- Carousel -->
+                <div class="carouselnature">
+                    <div class="slider">
+                        <figure>
+                            <img src="https://i.imgur.com/5OzLuOh.jpg" alt="VTT dans la forêt">
+                            <img src="https://i.imgur.com/xdPHceg.jpg" alt="Vélo sur fonc crépuscule">
+                            <img src="https://i.imgur.com/ungiYkQ.jpg" alt="VTT dans la montagne">
+                            <img src="https://i.imgur.com/CPsjSPy.jpg" alt="Vélo dans la forêt avec des enfants">
+                        </figure>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="Contact">
+                <h2>Contactez-nous</h2>
+
+                <form>
+                    <fieldset>
+                        <legend>Vos coordonnées</legend>
+                            <div>
+                                <label for="email">*</label>
+                                <input type="email" id="email" name="email" placeholder="@ Votre mail" required/>
+                            </div>
+                            <div>
+                                <label for="nom">*</label>
+                                <input type="text" id="nom" name="nom" placeholder="Votre nom" required/>
+                            </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Des questions ?</legend>
+                            <div>
+                                <label for="objet">*</label>
+                                <input type="text" id="objet" name="objet" placeholder="Objet de votre demande" required/>
+                            </div>
+                            <div>
+                                <label for="message">*</label>
+                                <textarea id="message" name="message" placeholder="Votre message" required></textarea>
+                            </div>
+                            
+                            <div>
+                                <label for="pub">souhaites-tu recevoir la newsletter ?</label>
+                                <input type="checkbox" id="pub" name="pub" checked/>
+                            </div>
+
+                            <div>
+                                <button>Envoyer !</button>
+                            </div>
+                    </fieldset>
+                            <h4>Les champs marqués par "*" sont obligatoires.</h4>
+                </form>
+            
+            </section>
+        
+        </main>
+
+        <footer>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#" title="notre mascotte">
+                            <img class="" src="" alt="Logo_TDL">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="URL_FAQ" title="FAQ">
+                            <img src="" alt="image_FAQ">
+                        </a>
+                    </li> <!-- ajouter URL FAQ -->
+                    <li>
+                        <a href="#Categories" title="lien vers le menu">Trouver mon activité</a>
+                    </li>
+                    <li>
+                        <a href="URL_sondage" title="lien vers le sondage">Sondage</a>
+                    </li>
+                    <li>
+                        <a href="URL_MentionsLegales" title="lien vers les mentions légales">
+                        Mentions légales
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com" title="lien vers notre profil Twitter">
+                            <img class="" src="" alt="Logo_Twitter">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://facebook.com" title="lien vers notre profil Facebook">
+                            <img class="" src="" alt="Logo_FB">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com" title="lien vers notre profil instagram">
+                            <img class="" src="" alt="Logo_instagram">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+
+    </body>
+    
+</html>

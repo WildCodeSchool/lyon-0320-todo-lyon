@@ -1,0 +1,116 @@
+body {
+	background-color:#bac7a7;
+	width: 500px;
+	height: 500px;
+}
+
+ /* Dropdown "escapades" */
+
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 75px 16px 75px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding: auto;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 210px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+ /* Fin Dropdown "escapades" */
+ /* CSS carousel */
+
+div.slider {
+    max-width: 1000px;
+    overflow: hidden;
+}
+
+div.slider figure {
+	position: relative;
+	width: 505%;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	animation: 20s AutoSlide infinite;
+}
+
+@keyframes AutoSlide {
+	0% { left: 0%; }
+	20% { left: 0%; }
+	25% { left: -102%; }
+	45% { left: -103%; }
+	50% { left: -201%; }
+	70% { left: -205%; }
+	75% { left: -305%; }
+	95% { left: -305%; }
+	100% { left: 0%; }
+}
+
+div.slider figure img {
+	width: 20%;
+	height: 200px;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+}
+
+/* Fin CSS Carousel */
+/* Joli slogan */
+
+#slogan {
+	border-radius: 10px;
+	max-width: auto;
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+  	max-height: 330px;
+  	box-shadow: 5px 5px 2px #bac7a7;
+}
+
+/* Fin joli slogan */
+
+h2 p {
+	font-size: 8px;
+} 
+
+@media
