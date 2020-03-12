@@ -174,7 +174,21 @@ div.firstSectionSport {
 
 /* Seconde section page sport */
 
-.divMainTitleSport
+.divMainTitleSport {
+	height: 80px;
+	background: #889e81;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.divSecondTitleSport {
+	height: 70px;
+	width: 150px;
+	background: #889e81;
+	border-radius: 10px;
+}
 
 .secondSectionSport {
 	width: 90%;
@@ -182,6 +196,10 @@ div.firstSectionSport {
 	border: 2px #889e81 solid;
 	border-radius: 10px;
 	background: #e5e4cc;
+}
+
+.blocSousSecondTitle {
+	margin-top: 40px;
 }
 
 .articleSport {
@@ -212,11 +230,28 @@ div.firstSectionSport {
 	text-align: center;
 	background-color: #889e81;
 	height: 10%;
+	padding-bottom: 3%;
 }
 
-#mainTitleSport, .secondTitleSport, .thirdTitleSport {
+#mainTitleSport:hover {
+	color: #e6a157;
+}
+
+#mainTitleSport, .secondTitleSport, .secondTitleSportQuotidien, .thirdTitleSport {
 	text-align: center;
 	font-family: 'Pacifico', cursive;
+}
+
+.secondTitleSportQuotidien {
+	margin-top: 10%;
+}
+
+.secondTitleSport {
+	margin-bottom: 30px;
+}
+
+.secondTitleSportQuotidien:hover, .secondTitleSport:hover {
+	color: #e6a157;
 }
 
 .descriptionSport {
@@ -269,6 +304,7 @@ header {
 .liHeader a {
 	color: #e5e4cc;
 	text-decoration: none;
+	line-height: 20px;
 }
 
 .liHeader a:hover {
@@ -286,7 +322,45 @@ header {
 	background: #bac7a7;
 }
 
+.logoHeader {
+	margin-left: 10%;
+	margin-top: 5%;
+	width: 100px;
+	height: 100px;
+}
 
+/* Responsive HEADER */
+
+@media only screen and (max-width: 800px) {
+	nav .ulHeader {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.ulHeader {
+	flex-direction: column;
+	align-items: center;
+	margin-top: 50px;
+	margin-right: 80px;
+}
+
+	header {
+		height: 200px;
+	}
+
+	main {
+		margin-top: 0
+	}
+
+	.logoHeader {
+		position: absolute;
+		margin-left: 6%;
+		margin-top: 5%;
+		width: 100px;
+		height: 100px;
+	}
+}
 
 
 /* FOOTER COMMUN A L'ENSEMBLE DES PAGES HTML */
@@ -340,13 +414,13 @@ footer {
 }
 
 .texteFooter {
-	font-family: 'Pacifico', cursive;
+	font-family: 'Bellota', cursive;
 	font-size: 16px;
 	color: #e5e4cc;
 }
 
 button {
-	font-family: 'Pacifico', cursive;
+	font-family: 'Bellota', cursive;
 }
 
 .texteFooter:hover {
@@ -621,8 +695,3 @@ h4{
 
 	}
 }
-
-/* Responsive HEADER */
-
-@media only screen and (max-width: 1000px) {
-
