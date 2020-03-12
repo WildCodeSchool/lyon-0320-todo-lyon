@@ -7,14 +7,13 @@
         <meta name="Description" content="Site touristique répertoriant certaines
         activités sur Lyon et ses alentours."/>
         <meta charset="UTF-8"/>
-        <meta name="authors" content="Best equip"/>
-        <link rel="stylesheet" href="stylenature.css" />
-
+        <meta name="authors" content="Best equip">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css" />
         
     </head>
 
     <body>
-
         <header>
             <h1>ToDoLyon</h1>
             <nav>
@@ -30,15 +29,19 @@
         
         <main>
             <section>
-                <h2 class="title_slogan">Be wild, be Lyon</h2>
-                <img id="slogan" src="https://i.imgur.com/tQ7Pepz.jpg" alt="image slogan">
+                <h2>Slogan</h2>
+                <img src="" alt="fond d'écran">
             </section>
             
-            <div class="dropdown">
-              <button class="dropbtn">Escapades</button>
-              <div class="dropdown-content">
-                <a href="#Escapades_a_pieds">À pieds</a>
-                <a href="#Escapades_a_velo">En vélo</a>
+            <!-- Large button groups default blue -->
+            <div class="btn-group">
+              <button class="btn btn-primary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Escapades
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#Escapades_a_pieds">À pieds</a>
+                <a class="dropdown-item" href="#Escapades_a_velo">En Vélo</a>
+                <a class="dropdown-item" href="#">À cheval</a>
               </div>
             </div>
 
@@ -47,33 +50,23 @@
                     <p>On vous propose une superbe randonnée où vous pourrez admirer quelques vestiges du passé glorieux de l'époque romaine.</p>
 
                 <!-- Carousel -->
-                <div class="carouselnature">
-                    <div class="slider">
-                        <figure>
-                            <img src="https://i.imgur.com/rT2dMH6.jpg" alt="Aqueduc entouré d'arbre">
-                            <img src="https://i.imgur.com/wBgPF0z.jpg" alt="Aqueduc avec ciel bleu">
-                            <img src="https://i.imgur.com/zO9C8Z7.jpg" alt="Chemin dans les bois">
-                            <img src="https://i.imgur.com/K1KmFLH.jpg" alt="Chemin sur une colline avec une maison dessus">
-                        </figure>
-                    </div>
+                <div id="slider">
+                    <figure>
+                      <img src="https://i.imgur.com/rT2dMH6.jpg" alt="Aqueduc entouré d'arbre">
+                      <img src="https://i.imgur.com/wBgPF0z.jpg" alt="Aqueduc avec ciel bleu">
                 </div>
 
             </section>
             
             <section>
-                <h2 id="Escapades_a_velo">Escapades à Vélo :</h2>
+                <h2 id="Escapades_a_velo">Escapades à Vélo :<h2>
                     <p>Si vous cherchez un peu plus d'adrénaline, on peut vous proposer ce parcours de VTT à travers les Coteaux Lyonnais. Le parcours est plutôt facile et convient donc à toute la famille. Vous avez des parcours de VTT qui longent le chemin le plus facile. Parfait pour débuter !</p>
 
                 <!-- Carousel -->
-                <div class="carouselnature">
-                    <div class="slider">
-                        <figure>
-                            <img src="https://i.imgur.com/5OzLuOh.jpg" alt="VTT dans la forêt">
-                            <img src="https://i.imgur.com/xdPHceg.jpg" alt="Vélo sur fonc crépuscule">
-                            <img src="https://i.imgur.com/ungiYkQ.jpg" alt="VTT dans la montagne">
-                            <img src="https://i.imgur.com/CPsjSPy.jpg" alt="Vélo dans la forêt avec des enfants">
-                        </figure>
-                    </div>
+                <div id="slider">
+                    <figure>
+                      <img src="https://i.imgur.com/5OzLuOh.jpg" alt="VTT dans la forêt">
+                      <img src="https://i.imgur.com/xdPHceg.jpg" alt="Vélo sur fonc crépuscule">
                 </div>
 
             </section>
@@ -163,6 +156,12 @@
                 </ul>
             </nav>
         </footer>
+        
+        <script src="projet.js"></script>
+        
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
     </body>
     

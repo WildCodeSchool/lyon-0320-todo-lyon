@@ -2,6 +2,7 @@ body {
 	background-color:#bac7a7;
 	width: 500px;
 	height: 500px;
+  display: flex;
 }
 
  /* Dropdown "escapades" */
@@ -59,7 +60,7 @@ body {
  /* CSS carousel */
 
 div.slider {
-    max-width: 1000px;
+    max-width: 500px;
     overflow: hidden;
 }
 
@@ -85,8 +86,8 @@ div.slider figure {
 }
 
 div.slider figure img {
-	width: 20%;
-	height: 200px;
+	width: 500px;
+	height: 250px;
 }
 
 .carousel {
