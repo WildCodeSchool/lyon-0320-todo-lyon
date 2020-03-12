@@ -8,14 +8,21 @@ main
 	margin: 0px;
 }
 
+p
+{
+	font-family: 'Pacifico', cursive;
+}
+
 
 /* mise en page des titres de la section catégorie */
 
 .titre-catégories
 { 
-    font-size: 20px;
+    font-size: 40px;
     display: flex;
     justify-content: center;
+    font-family: 'Bellota', cursive;
+    padding-top: 30px;
 }
 
 /* mise en page de l'iframe météo */
@@ -105,6 +112,13 @@ visibility: visible;
 }
 
 /* mise en page de la section "Ville culturelle" */
+
+.titre-culturel
+{
+	display: flex;
+    justify-content: center;
+    font-family: 'Bellota', cursive;
+}
 
 .bubble
 {
