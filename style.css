@@ -143,14 +143,13 @@ visibility: visible;
 
 /* PAGE SPORT */
 
-
 /* Section Carousel (1ère section) */
-div#slider {
+div.firstSectionSport {
     max-width: 100%;
 	overflow: hidden;
 	width: 100%;
 }
-  div#slider figure {
+  div.firstSectionSport figure {
     position: relative;
     width: 505%;
     margin: 0;
@@ -170,7 +169,7 @@ div#slider {
     100% { left: 0%; }
   }
 
-  div#slider figure img {
+  div.firstSectionSport figure img {
     width: 20%;
 	height: 700px;
  }
@@ -215,11 +214,13 @@ div#slider {
 
 #mainTitleSport, .secondTitleSport, .thirdTitleSport {
 	text-align: center;
+	font-family: 'Pacifico', cursive;
 }
 
 .descriptionSport {
 	width: 80%;
 	text-align: justify;
+	font-family: 'Bellota', cursive;
 }
 
 .blocSport {
@@ -238,6 +239,9 @@ div#slider {
 	width: 100%;
 	margin-bottom: 10px;
 }
+
+/* Media queries page Sport */
+
 
 
 
@@ -271,15 +275,15 @@ footer {
 
 
 #logoFooter {
-	width: 50px;
-	height: 50px;
+	width: 100px;
+	height: 100px;
 	margin-left: 25%;
 }
 
 .navListeFooter {
 	width: 70%;
 	display: flex;
-	margin-left: 28%
+	margin-left: 15%
 }
 
 .listeFooter {
@@ -294,8 +298,13 @@ footer {
 }
 
 .texteFooter {
+	font-family: 'Pacifico', cursive;
 	font-size: 16px;
 	color: #e5e4cc;
+}
+
+button {
+	font-family: 'Pacifico', cursive;
 }
 
 .texteFooter:hover {
@@ -360,16 +369,17 @@ form {
 	margin-bottom: 5%;
 }
 
+
 /* Media queries Footer */
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 900px) {
 	nav .listeFooter {
 		display: flex;
 	}
 
 	.navListeFooter {
 		width: 100%;
-		margin-left: 18%;
+		margin-left: 10%;
 	}
 
 
@@ -546,3 +556,21 @@ h4{
         font-size: 20px;
     }
 
+
+/* Media queries page Sport */
+
+@media only screen and (min-width: 900px) {
+	.mapSports {
+		display: none;
+	}
+
+	.divSectionSports {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.secondArticleSport {
+		margin-bottom: 20%;
+
+	}
+}
