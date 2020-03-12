@@ -113,13 +113,6 @@ visibility: visible;
 
 /* mise en page de la section "Ville culturelle" */
 
-.titre-culturel
-{
-	display: flex;
-    justify-content: center;
-    font-family: 'Bellota', cursive;
-}
-
 .bubble
 {
 	display: flex;
