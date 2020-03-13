@@ -188,6 +188,7 @@ div.firstSectionSport {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin-top: 20px;
 }
 
 .divSecondTitleSport {
@@ -198,8 +199,8 @@ div.firstSectionSport {
 }
 
 .secondSectionSport {
-	width: 90%;
-	margin: 5% 5% 5% 5%;
+	width: 100%;
+	
 	border: 2px #889e81 solid;
 	border-radius: 10px;
 	background: #e5e4cc;
@@ -215,6 +216,7 @@ div.firstSectionSport {
     justify-content: center;
 	align-items: center;
 	padding-top: 2%;
+	width: 80%;
 }
 
 .imgsport {
@@ -222,11 +224,16 @@ div.firstSectionSport {
 	border-radius: 10px;
 	margin-top: 30px;
 	margin-bottom: 50px;
-	margin-left: 120px;
+
 	-webkit-transform: scale(1.25);
 	transform: scale(1.25);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
+}
+
+.lienImgSport {
+	display: flex;
+	justify-content: center;
 }
 
 .imgsport:hover {
@@ -268,6 +275,12 @@ div.firstSectionSport {
 	font-family: 'Bellota', cursive;
 }
 
+.divSectionSports {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .blocSport {
 	display: flex;
@@ -300,6 +313,8 @@ header {
 	align-items: flex-end;
 	width: 100%;
 	margin-left: 7%;
+	padding-top: 20px;
+	margin-bottom: 10px;
 }
 
 .liHeader {
@@ -312,7 +327,7 @@ header {
 .liHeader a {
 	color: #e5e4cc;
 	text-decoration: none;
-	line-height: 20px;
+	line-height: 40px;
 }
 
 .liHeader a:hover {
@@ -351,6 +366,7 @@ header {
 	align-items: center;
 	margin-top: 50px;
 	margin-right: 80px;
+	padding-top: 10px;
 }
 
 	header {
@@ -367,6 +383,10 @@ header {
 		margin-top: 5%;
 		width: 100px;
 		height: 100px;
+	}
+
+	.mapSports {
+		margin-bottom: 20px;
 	}
 }
 
@@ -407,13 +427,16 @@ footer {
 .navListeFooter {
 	width: 70%;
 	display: flex;
-	margin-left: 15%
+	margin-left: 15%;
+	justify-content: center;
+    align-items: center;
 }
 
 .listeFooter {
 	width: 200px;
 	line-height: 40px;
-	margin-left: 30px;
+	padding-left: 0;
+    margin-left: -30%;
 }
 
 .listeFooter a {
@@ -468,7 +491,8 @@ button {
     flex-direction: column;
     justify-content: center;
 	align-items: center;
-    width: 70%;
+	width: 70%;
+	margin-left: -20%;
 }
 
 form {
@@ -685,6 +709,12 @@ h4{
 
 /* Media queries page Sport */
 
+@media only screen and (max-width: 1000px) {
+.descriptionSport {
+	display: none;
+}
+}
+
 @media only screen and (min-width: 1000px) {
 	.mapSports {
 		display: flex;
@@ -692,17 +722,25 @@ h4{
 		justify-content: center;
 		align-items: center;
 		width: 100%;
-		margin-bottom: 10px;
+		margin-bottom: 20px;
 	}
 
 	.divSectionSports {
 		display: flex;
 		flex-direction: row;
+		justify-content: center;
+		align-items:
 	}
 
 	.secondArticleSport {
 		margin-bottom: 20%;
+	}
 
+	.articleSport {
+		width: 48%;
+
+	.imgsport {
+		margin-left: 130px;
 	}
 }
 
