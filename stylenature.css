@@ -1,31 +1,40 @@
-body {
-	background-color:#bac7a7;
-	width: 500px;
-	height: 500px;
-  display: flex;
+/* Joli slogan */
+
+#slogan {
+  border-radius: 10px;
+  max-width: auto;
+  display: block;
+  margin-left: auto;
+    margin-right: auto;
+    max-height: 330px;
+    box-shadow: 5px 5px 2px #bac7a7;
 }
 
- /* Dropdown "escapades" */
+/* Fin joli slogan */
 
-/* Style The Dropdown Button */
+/* Dropdown "escapades" */
+
+    /* Style The Dropdown Button */
+
 .dropbtn {
   background-color: #4CAF50;
   color: white;
   padding: 16px 75px 16px 75px;
-  font-size: 16px;
+  font-size: 32px;
   border: none;
   cursor: pointer;
   font-weight: bold;
+  margin: auto;
 }
 
-/* The container <div> - needed to position the dropdown content */
+    /* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
-  display: inline-block;
-  padding: auto;
+  margin: auto;
+  padding-right: 0px;
 }
 
-/* Dropdown Content (Hidden by Default) */
+    /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -35,7 +44,7 @@ body {
   z-index: 1;
 }
 
-/* Links inside the dropdown */
+    /* Links inside the dropdown */
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -43,25 +52,29 @@ body {
   display: block;
 }
 
-/* Change color of dropdown links on hover */
+    /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #f1f1f1}
 
-/* Show the dropdown menu on hover */
+    /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
+    /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
 
- /* Fin Dropdown "escapades" */
- /* CSS carousel */
+/* Fin Dropdown "escapades" */
+/* CSS carousel */
 
 div.slider {
-    max-width: 500px;
-    overflow: hidden;
+  max-width: 500px;
+  overflow: hidden;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 30px;
 }
 
 div.slider figure {
@@ -96,22 +109,147 @@ div.slider figure img {
 }
 
 /* Fin CSS Carousel */
-/* Joli slogan */
 
-#slogan {
-	border-radius: 10px;
-	max-width: auto;
-	display: block;
-	margin-left: auto;
-  	margin-right: auto;
-  	max-height: 330px;
-  	box-shadow: 5px 5px 2px #bac7a7;
+.descriptionnature {
+  width: 80%;
+  text-align: justify;
+  margin: auto;
 }
 
-/* Fin joli slogan */
+.sectionnature {
+  width: 90%;
+  margin: 5% 5% 5% 5%;
+  border: 2px #889e81 solid;
+  border-radius: 10px;
+  background: #e5e4cc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
 h2 p {
+  text-align: center;
 	font-size: 8px;
 } 
 
-@media
+/* FOOTER COMMUN A L'ENSEMBLE DES PAGES HTML */
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  background: #889e81;
+  display: flex;
+  margin-top: auto;
+  height: 5%;
+  align-items: center;
+  border-top: 3px solid #e6a157;
+}
+
+
+#logoFooter {
+  width: 50px;
+  height: 50px;
+  margin-left: 25%;
+}
+
+.navListeFooter {
+  width: 70%;
+  display: flex;
+  margin-left: 28%
+}
+
+.listeFooter {
+  width: 200px;
+  line-height: 40px;
+  margin-left: 30px;
+}
+
+.listeFooter a {
+  text-decoration: none;
+  color: #e5e4cc;
+}
+
+.texteFooter {
+  font-size: 16px;
+  color: #e5e4cc;
+}
+
+.texteFooter:hover {
+  color: #e6a157;
+  font-weight: bold;
+}
+
+.listeFooter, .socialNetworks {
+  list-style: none;
+  text-align: center;
+}
+
+.navSocialNetworks {
+  width: 100%;
+}
+
+#followUs {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.socialNetworks {
+  display: flex;
+  padding: 0;
+  margin-left: 40px
+}
+
+
+.facebook, .twitter, .instagram {
+  width: 25px;
+  height: 25px;
+  margin-right: 30px;
+}
+
+#thirdcolumn {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+  align-items: center;
+    width: 70%;
+}
+
+form {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#research {
+  margin-bottom: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+
+.caseFooter {
+  width: 80%;
+  margin-bottom: 5%;
+}
+
+/* FIN FOOTER COMMUN A L'ENSEMBLE DES PAGES HTML */
+

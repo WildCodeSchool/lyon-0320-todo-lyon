@@ -8,8 +8,7 @@
         activités sur Lyon et ses alentours."/>
         <meta charset="UTF-8"/>
         <meta name="authors" content="Best equip">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="stylenature.css" />
         
     </head>
 
@@ -29,140 +28,88 @@
         
         <main>
             <section>
-                <h2>Slogan</h2>
-                <img src="" alt="fond d'écran">
+                <h2 class="title_slogan">Be wild, be Lyon</h2>
+                <img id="slogan" src="https://i.imgur.com/tQ7Pepz.jpg" alt="image slogan">
             </section>
             
-            <!-- Large button groups default blue -->
-            <div class="btn-group">
-              <button class="btn btn-primary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Escapades
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#Escapades_a_pieds">À pieds</a>
-                <a class="dropdown-item" href="#Escapades_a_velo">En Vélo</a>
-                <a class="dropdown-item" href="#">À cheval</a>
-              </div>
-            </div>
+            <!-- Dropdown -->
+        <div class="dropdown">
+          <button class="dropbtn">Escapades !</button>
+          <div class="dropdown-content">
+            <a href="#Escapades_a_pieds">À pieds !</a>
+            <a href="#Escapades_a_velo">En vélo !</a>
+          </div>
+        </div>
+
+            <section class="sectionnature">
+                <article class="articlenature">
+                    <h2 id="Escapades_a_pieds">Escapades à pieds :</h2>
+                        <p class="descriptionnature">On vous propose de superbes randonnées où vous pourrez admirer quelques vestiges du passé glorieux de l'époque romaine. Ainsi que des paysages à couper le souffle à deux pas de Lyon.</p>
+
+                    <!-- Carousel -->
+                    <div class="slider">
+                        <figure>
+                          <img src="https://i.imgur.com/rT2dMH6.jpg" alt="Aqueduc entouré d'arbre">
+                          <img src="https://i.imgur.com/wBgPF0z.jpg" alt="Aqueduc avec ciel bleu">
+                          <img src="https://i.imgur.com/zO9C8Z7.jpg" alt="chemin dans les bois">
+                          <img src="https://i.imgur.com/K1KmFLH.jpg" alt="maison dans une colline">
+                    </div>
+
+                    <h2 id="Escapades_a_velo">Escapades à Vélo :</h2>
+                        <p class="descriptionnature">Si vous cherchez un peu plus d'adrénaline, on peut vous proposer des parcours de VTT testés et approuvés pour tous les niveaux !</p>
+
+                    <!-- Carousel -->
+                    <div class="slider">
+                        <figure>
+                          <img src="https://i.imgur.com/5OzLuOh.jpg" alt="VTT dans la forêt">
+                          <img src="https://i.imgur.com/xdPHceg.jpg" alt="Vélo sur fonc crépuscule">
+                          <img src="https://i.imgur.com/CPsjSPy.jpg" alt="Vélos enfants dans les bois">
+                          <img src="https://i.imgur.com/ungiYkQ.jpg" alt="VTT forêt">
+                    </div>
+                </article>
+            </section>
 
             <section>
-                <h2 id="Escapades_a_pieds">Escapades à pieds :</h2>
-                    <p>On vous propose une superbe randonnée où vous pourrez admirer quelques vestiges du passé glorieux de l'époque romaine.</p>
-
-                <!-- Carousel -->
-                <div id="slider">
-                    <figure>
-                      <img src="https://i.imgur.com/rT2dMH6.jpg" alt="Aqueduc entouré d'arbre">
-                      <img src="https://i.imgur.com/wBgPF0z.jpg" alt="Aqueduc avec ciel bleu">
-                </div>
-
-            </section>
-            
-            <section>
-                <h2 id="Escapades_a_velo">Escapades à Vélo :<h2>
-                    <p>Si vous cherchez un peu plus d'adrénaline, on peut vous proposer ce parcours de VTT à travers les Coteaux Lyonnais. Le parcours est plutôt facile et convient donc à toute la famille. Vous avez des parcours de VTT qui longent le chemin le plus facile. Parfait pour débuter !</p>
-
-                <!-- Carousel -->
-                <div id="slider">
-                    <figure>
-                      <img src="https://i.imgur.com/5OzLuOh.jpg" alt="VTT dans la forêt">
-                      <img src="https://i.imgur.com/xdPHceg.jpg" alt="Vélo sur fonc crépuscule">
-                </div>
-
+                <article>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d44555.84671339967!2d4.686307312415469!3d45.736300351464756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1584086801875!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </article>
             </section>
 
-            <section id="Contact">
-                <h2>Contactez-nous</h2>
-
-                <form>
-                    <fieldset>
-                        <legend>Vos coordonnées</legend>
-                            <div>
-                                <label for="email">*</label>
-                                <input type="email" id="email" name="email" placeholder="@ Votre mail" required/>
-                            </div>
-                            <div>
-                                <label for="nom">*</label>
-                                <input type="text" id="nom" name="nom" placeholder="Votre nom" required/>
-                            </div>
-                    </fieldset>
-
-                    <fieldset>
-                        <legend>Des questions ?</legend>
-                            <div>
-                                <label for="objet">*</label>
-                                <input type="text" id="objet" name="objet" placeholder="Objet de votre demande" required/>
-                            </div>
-                            <div>
-                                <label for="message">*</label>
-                                <textarea id="message" name="message" placeholder="Votre message" required></textarea>
-                            </div>
-                            
-                            <div>
-                                <label for="pub">souhaites-tu recevoir la newsletter ?</label>
-                                <input type="checkbox" id="pub" name="pub" checked/>
-                            </div>
-
-                            <div>
-                                <button>Envoyer !</button>
-                            </div>
-                    </fieldset>
-                            <h4>Les champs marqués par "*" sont obligatoires.</h4>
-                </form>
-            
-            </section>
-        
         </main>
 
         <footer>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#" title="notre mascotte">
-                            <img class="" src="" alt="Logo_TDL">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="URL_FAQ" title="FAQ">
-                            <img src="" alt="image_FAQ">
-                        </a>
-                    </li> <!-- ajouter URL FAQ -->
-                    <li>
-                        <a href="#Categories" title="lien vers le menu">Trouver mon activité</a>
-                    </li>
-                    <li>
-                        <a href="URL_sondage" title="lien vers le sondage">Sondage</a>
-                    </li>
-                    <li>
-                        <a href="URL_MentionsLegales" title="lien vers les mentions légales">
-                        Mentions légales
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com" title="lien vers notre profil Twitter">
-                            <img class="" src="" alt="Logo_Twitter">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://facebook.com" title="lien vers notre profil Facebook">
-                            <img class="" src="" alt="Logo_FB">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://instagram.com" title="lien vers notre profil instagram">
-                            <img class="" src="" alt="Logo_instagram">
-                        </a>
-                    </li>
+            <div>
+                <a href=#><img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Creative-Tail-Animal-lion.svg" alt="Logo_TDL" id="logoFooter"></a>
+            </div>
+
+            <nav class="navListeFooter">
+                <ul class="listeFooter">
+                    <li><a href="#" title="lien vers le menu" class="texteFooter">Trouver mon activité</a></li>
+                    <li><a href="#" title="lien vers le sondage" class="texteFooter">Sondage</a></li>
+                    <li><a href="#" title="lien vers les mentions légales" class="texteFooter">Mentions légales</a></li>
+                    <li><a href="#" title="lien vers la FAQ" class="texteFooter">FAQ</a></li>
                 </ul>
             </nav>
+            <div id="thirdcolumn">
+                <nav id="navSocialNetworks">
+                    <h1 id="followUs" class="texteFooter">Nous suivre:</h1>
+                    <ul class="socialNetworks">
+                        <li><a href="https://twitter.com" title="lien vers notre profil Twitter"><img class="twitter" src="https://www.bassin-arcachon.com/wp-content/uploads/2017/02/logo-twitter-bleu.png" alt="Logo_Twitter"></a></li>
+                        <li><a href="https://facebook.com" title="lien vers notre profil Facebook"><img class="facebook" src="https://cdn.icon-icons.com/icons2/159/PNG/256/facebook_22567.png" alt="Logo_FB"></a></li>
+                        <li><a href="https://instagram.com" title="lien vers notre profil instagram"><img class="instagram" src="https://www.followerspascher.com/wp-content/uploads/2016/06/1466927228_social-instagram-new-circle.png" alt="Logo_instagram"></a></li>
+                    </ul>
+                </nav>
+
+                <div id="research">
+                    <form>
+                        <input class="caseFooter" type="search" id="site-search" name="q" aria-label="Search through site content">
+                        <button type="submit" class="caseFooter">Rechercher</button>
+                    </form>
+                </div>
+            </div>
         </footer>
         
         <script src="projet.js"></script>
-        
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
     </body>
     
 </html>
