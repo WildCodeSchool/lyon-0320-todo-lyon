@@ -220,6 +220,10 @@ div.firstSectionSport {
 	width: 80%;
 }
 
+.firstArticleSport {
+	padding-bottom: 5%;
+}
+
 .imgsport {
 	width: 40%;
 	border-radius: 10px;
@@ -271,7 +275,7 @@ div.firstSectionSport {
 }
 
 .descriptionSport {
-	width: 80%;
+	width: 400px;
 	text-align: justify;
 	font-family: 'Bellota', cursive;
 }
