@@ -441,11 +441,12 @@ p
 	list-style: none;
 }
 
-.lien-nav-cine
+.lien-activite a
 {
 	text-decoration: none;
 	list-style: none;
 	color: black;
+	margin-bottom: 5px;
 }
 
 .infoPratiquesCinema a
@@ -459,9 +460,10 @@ p
 	margin: 10px;
 }
 
-.lien-nav-cine:hover
+.lien-activite a:hover
 {
 	color: #e6a157;
+	cursor: pointer;
 }
 
 .infoPratiquesCinema a:hover
@@ -469,7 +471,7 @@ p
 	color: #e6a157;
 }
 
-.lien-activite
+.lien-nav-cine
 {
 	background-color:#bac7a7;
 	padding: 10px;
@@ -620,6 +622,12 @@ p
 	.titreH2Cinema
 	{
 		text-align: center;
+	}
+
+	.infoPratiquesCinema p
+	{
+		margin-right: 50px;
+		margin-left: 50px;
 	}
 
 }
