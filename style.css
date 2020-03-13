@@ -738,7 +738,6 @@ h4{
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
-		align-items:
 	}
 
 	.secondArticleSport {
@@ -747,10 +746,9 @@ h4{
 
 	.articleSport {
 		width: 48%;
-
-	.imgsport {
-		margin-left: 130px;
 	}
+
+
 }
 
 /* Section Slogan */
