@@ -13,27 +13,29 @@
     </head>
     <body>
         <header>
-            <h1>ToDoLyon</h1>
-            <nav>
-                <ul>
-                    <li><a href="#" title="Notre mascotte"><img src="URL Logo_TDL" alt="Logo_TDL"></a></li> <!-- ajouter URL-->
-                    <li><a href="#Categories" title="Trouver mon activité">Trouver mon activité</a></li>
-                    <li><a href="#Contact" title="Contactez-nous, on ne mord pas !">Contactez-nous !</a></li>
-                    <li><a href="URL_a_propos" title="Faites connaissance avec l'équipe !">On te parle de nous</a></li> <!-- Ajouter URL vers page "à propos" dans href -->
-                    <li><a href="URL_sondage" title="Que pensez-vous du site ?">Sondage</a></li> <!-- Ajouter URL vers page "sondage" dans href -->
+            <div>
+                <a href=#><img src="https://i.imgur.com/d2eEvLw.png" alt="Logo_TDL"  class="logoHeader"></a>
+            </div>
+            <h1 class="mainTitleHeader">ToDoLyon</h1>
+            <nav class="navHeader">
+                <ul class="ulHeader">
+                    <li class="liHeader"><a href="index.html" title="Trouver mon activité">Trouver mon activité</a></li>
+                    <li class="liHeader"><a href="#Contact" title="Contactez-nous, on ne mord pas !">Contactez-nous !</a></li>
+                    <li class="liHeader"><a href="#" title="Faites connaissance avec l'équipe !">On te parle de nous</a></li> <!-- Ajouter URL vers page "à propos" dans href -->
+                    <li class="liHeader"><a href="#" title="Que pensez-vous du site ?">Sondage</a></li> <!-- Ajouter URL vers page "sondage" dans href -->
                 </ul>
             </nav>
         </header>
         
         <main>
             <section>
-                <h2>Slogan</h2>
-                <img src="" alt="fond d'écran">
+                <h1 class="title_slogan">Be wild, be Lyon</h2>
+                <img id="slogan" src="https://i.imgur.com/tQ7Pepz.jpg" alt="image slogan">
             </section>
 
             <!--paragraphe d'introduction-->
             <section class="introduction">
-                <p>Pour vous aider à organiser votre séjour à Lyon, nous vous proposons des idées d'événements incontournables:
+                <p class="parIntro">Pour vous aider à organiser votre séjour à Lyon, nous vous proposons des idées d'événements incontournables:
                     <br>
                     capital gastronomique, centre culturel, événements internationaux, paysage entre mer et montagne..
                     vous apprécierez la qualité de vie, le dynamisme et le charme de la ville de Lyon.
@@ -43,7 +45,7 @@
             </section>
             
            <section id="Categories">
-                <h2 class="titre-catégories">À lyon je veux...</h2>
+                <h1 class="titre-catégories">À Lyon je veux...</h2>
                 <aside class="meteofrance">
                     <script charset='UTF-8' src='http://www.meteofrance.com/mf3-rpc-portlet/rest/vignettepartenaire/691230/type/VILLE_FRANCE/size/PAYSAGE_VIGNETTE' type='text/javascript'></script>
                 </aside>
@@ -183,20 +185,20 @@
 
         <footer>
             <div>
-                <a href=#><img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Creative-Tail-Animal-lion.svg" alt="Logo_TDL" id="logoFooter"></a>
+                <a href=#><img src="https://i.imgur.com/d2eEvLw.png" alt="Logo_TDL" id="logoFooter"></a>
             </div>
 
             <nav class="navListeFooter">
                 <ul class="listeFooter">
-                    <li><a href="#" title="lien vers le menu" class="texteFooter">Trouver mon activité</a></li>
-                    <li><a href="#" title="lien vers le sondage" class="texteFooter">Sondage</a></li>
+                    <li><a href="index.html" title="lien vers le menu" class="texteFooter">Trouver mon activité</a></li>
+                    <li><a href="index.html" title="lien vers le sondage" class="texteFooter">Sondage</a></li>
                     <li><a href="#" title="lien vers les mentions légales" class="texteFooter">Mentions légales</a></li>
                     <li><a href="#" title="lien vers la FAQ" class="texteFooter">FAQ</a></li>
                 </ul>
             </nav>
             <div id="thirdcolumn">
                 <nav id="navSocialNetworks">
-                    <h1 id="followUs" class="texteFooter">Nous suivre:</h1>
+                    <h2 id="followUs" class="texteFooter">Nous suivre:</h1>
                     <ul class="socialNetworks">
                         <li><a href="https://twitter.com" title="lien vers notre profil Twitter"><img class="twitter" src="https://www.bassin-arcachon.com/wp-content/uploads/2017/02/logo-twitter-bleu.png" alt="Logo_Twitter"></a></li>
                         <li><a href="https://facebook.com" title="lien vers notre profil Facebook"><img class="facebook" src="https://cdn.icon-icons.com/icons2/159/PNG/256/facebook_22567.png" alt="Logo_FB"></a></li>

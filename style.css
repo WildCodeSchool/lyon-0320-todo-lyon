@@ -21,7 +21,7 @@ p
     font-size: 40px;
     display: flex;
     justify-content: center;
-    font-family: 'Bellota', cursive;
+    font-family: 'Pacifico', cursive;
     padding-top: 30px;
 }
 
@@ -540,8 +540,10 @@ form {
     background-image: url("https://cdn.pixabay.com/photo/2014/04/07/20/27/texture-318907_960_720.jpg");
     width: 100%;
     text-align: center;
-    border-radius: 10px;
+	border-radius: 10px;
+	font-family: 'Pacifico', cursive;
 }
+
 
 
 #Contact  {
@@ -702,4 +704,27 @@ h4{
 		margin-bottom: 20%;
 
 	}
+}
+
+/* Section Slogan */
+
+#slogan {
+	border-radius: 10px;
+	max-width: 95%;
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+  	max-height: 330px;
+  	box-shadow: 5px 5px 2px #BAC7A7;
+}
+
+.title_slogan {
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+	color: #e6a157;
+	font-size: 36px;
+}
+
+.parIntro {
+	font-family: 'Bellota', cursive;
 }
