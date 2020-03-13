@@ -624,6 +624,12 @@ p
 		text-align: center;
 	}
 
+	.infoPratiquesCinema p
+	{
+		margin-right: 50px;
+		margin-left: 50px;
+	}
+
 }
 
 @media only screen and (max-width: 460px)
