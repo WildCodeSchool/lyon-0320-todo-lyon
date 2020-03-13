@@ -7,90 +7,198 @@
         activités sur Lyon et ses alentours."/>
         <meta charset="UTF-8"/>
         <meta name="authors" content="Best equip">
-        <link rel="stylesheet" href="style.css" />
+        <!--<link rel="stylesheet" href="style.css" />-->
         <link rel="stylesheet" href="MusiqueStyle.css" />
+        <link href="https://fonts.googleapis.com/css?family=Bellota|Pacifico&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         
     </head>
     <body>
         <header>
-            <h1>ToDoLyon</h1>
-                <nav>
-                    <ul>
-                        <li><a href="#" title="Notre mascotte"><img src="URL Logo_TDL" alt="Logo_TDL"></a></li> <!-- ajouter URL-->
-                        <li><a href="#Categories" title="Trouver mon activité">Trouver mon activité</a></li>
-                        <li><a href="#Contact" title="Contactez-nous, on ne mord pas !">Contactez-nous !</a></li>
-                        <li><a href="URL_a_propos" title="Faites connaissance avec l'équipe !">On te parle de nous</a></li> <!-- Ajouter URL vers page "à propos" dans href -->
-                        <li><a href="URL_sondage" title="Que pensez-vous du site ?">Sondage</a></li> <!-- Ajouter URL vers page "sondage" dans href -->
-                        <div><input style="texte" id="search" /></div>
-                    </ul>
-                </nav>
+            <div>
+                <a href=#><img src="https://i.imgur.com/d2eEvLw.png" alt="Logo_TDL"  class="logoHeader"></a>
+            </div>
+            <h1 class="mainTitleHeader">ToDoLyon</h1>
+            <nav class="navHeader">
+                <ul class="ulHeader">
+                    <li class="liHeader"><a href="index.html" title="Trouver mon activité">Trouver mon activité</a></li>
+                    <li class="liHeader"><a href="#Contact" title="Contactez-nous, on ne mord pas !">Contactez-nous !</a></li>
+                    <li class="liHeader"><a href="#" title="Faites connaissance avec l'équipe !">On te parle de nous</a></li> <!-- Ajouter URL vers page "à propos" dans href -->
+                    <li class="liHeader"><a href="#" title="Que pensez-vous du site ?">Sondage</a></li> <!-- Ajouter URL vers page "sondage" dans href -->
+                </ul>
+            </nav>
         </header>
         
         <main>
             
             <section>
-                <h2>Slogan</h2>
-                <img src="" alt="fond d'écran">
+                <h1 class="title_slogan">Be wild, be Lyon</h2>
+                <img id="slogan" src="https://i.imgur.com/tQ7Pepz.jpg" alt="image slogan">
             </section>
 
-            <section class="MusiSectPrincipale">
+                                <section class="MusiSectPrincipale" id="HautPage">
+                                    <div><button class="boutonHaut"><a href="#HautPage">|</a></button></div>
 
-                <div class="MusiSectSalle">
+                                    <aside class="MusiSectAsideSalle">
+                    
+                                            <h2 class="MusiSectAsideH2Salle">Salles de Lyon</h2>
+                    
+                                            <ul class="MusiSectUlAsideSalle">
+                    
+                                                <li class="MusiSectAsideLiSalle1"><a href="#MusiSectH1Salle">Halle de Tony Garnier</a></li>
+                                                <li class="MusiSectAsideLiSalle2"><a href="#MusiSectH1Salle2">Opéra de Lyon</a></li>
+                    
+                                            </ul>
+                    
+                                    </aside>
 
-                    <h1 class="MusiSectH1Salle">La salle de lorem</h1>
+                                    <div class="barre"></div>
 
-                        <p class="MusiSectParaSalle">Lorem LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem</p>
+                                    <div class="MusiSectSalle">
+                    
+                                        <h1 class="MusiSectH1Salle" id="MusiSectH1Salle">Halle Tony Garnier</h1>
+                    
+                                            <p class="MusiSectParaSalle paraMusi">                                            
+                                                Salle de concerts de 17 000 m², 210 m de long, 80 m de large. Depuis les aménagements de juin 1999 à juin 2000, elle peut accueillir jusqu'à 17 000 personnes. Structure métallique entièrement rénovée. C’est la plus vaste surface couverte sans pilier.</p>
+                                    
+                                    </div>
+                    
+                        <section class="MusiSectInfoCarou">
+
+                    <!--<article class="MusiSectCarousel">
+                        <figure>
+                            <img scr="https://i.imgur.com/csELK03.png" alt="Image1" />
+                        </figure>
+                        <figure>
+                            <img src="https://i.imgur.com/csELK03.png" alt="Image2" />
+                        </figure>
+                    </article>-->
+                    <div id="slider" class="firstSectionSport">
+                        <figure>
+                          <a href="www.halle-tony-garnier.com"><img src="https://www.toolyon.com/wp-content/uploads/2017/03/halle-tony-garnier-lyon-1423x800.jpg"  alt></a>
+                          <a href="www.halle-tony-garnier.com"><img src="https://media.lyon-france.com/1280x853/149530/671606.jpg"  alt></a>
+                          <img src="https://cdn.wegow.com/media/venues/halle-tony-garnier/halle-tony-garnier-1565097202.17.2560x1440.jpg"   alt>
+                          <img src="https://i.ytimg.com/vi/3xFRNqt2sSg/maxresdefault.jpg"   alt>
+                        </figure>
+                    </div>
+    
+                        <h1 class="MusiSectActiCarou" id="MusiSectActiCarou">Activités liées</h1>
+    
+                            <p class="MusicSectActiPara" id="paraMusi">La Halle Tony Garnier permet d'écouté de la musique?</p>
+                    
+                    <aside class="MusiSectAside">
+    
+                        <h1 class="MusiSectH1Info">Infos pratiques</h1>
+    
+                            <ul class="MusiSectUl">
+    
+                                <li class="MusiSectMapsLi"><a href="https://goo.gl/maps/CHRYcRX9zYYvdNyk6" title="La map">La map</a></li>
+                                <li class="MusiSectHorairesLi"><a href="https://www.halle-tony-garnier.com/fr/manifestations" title="Lien vers les horaires">L'agenda</a></li>
+                                <li class="MusiSectLiensLi"><a href="www.halle-tony-garnier.com" title="Lien du site">lien du site</a></li>
+                                <li class="MusiSectTelLi"> Tél : 04 72 76 85 85</li>
+    
+                            </ul>
+    
+                    </aside>
+                </section>
+
+                <div class="barre"></div>
+
+                <div class="MusiSectSalleBas">
+                    
+                    <h1 class="MusiSectH1Salle2" id="MusiSectH1Salle2">Opéra de Lyon</h1>
+
+                        <p class="MusiSectParaSalle paraMusi">                                            
+                            Le Grand Théâtre fut construit en 1756 par Jacques-Germain Soufflot ( 1713-1780 qui fit également à Paris le Panthéon, l’église Ste Geneviève, etc ) et reconstruit de 1827 à 1831 par les architectes Chenavard et Pollet, il fut alors appelé Opéra.</p>
                 
                 </div>
 
-                <aside class="MusiSectAsideSalle">
+                <section class="MusiSectInfoCarouBas">
 
-                    <h1 class="MusiSectAsideH1Salle">Musique</h1>
+                <!--<article class="MusiSectCarousel">
+                    <figure>
+                        <img scr="https://i.imgur.com/csELK03.png" alt="Image1" />
+                    </figure>
+                    <figure>
+                        <img scr="https://i.imgur.com/csELK03.png" alt="Image1" />
+                    </figure>
+                    <figure>
+                        <img scr="https://i.imgur.com/csELK03.png" alt="Image1" />
+                    </figure>
+                    <figure>
+                        <img scr="https://i.imgur.com/csELK03.png" alt="Image1" />
+                    </figure>
+                </article>-->
 
-                        <h2 class="MusiSectAsideH2Salle">Salles de Lyon</h2>
+                <div id="slider" class="firstSectionSport">
+                    <figure>
+                      <a href="https://www.opera-lyon.com/fr"><img src="https://www.opera-lyon.com/sites/opera-de-lyon/files/styles/home_slide_desktop/public/2017-11/op_exte%CC%81rieurOK_franchellaS.jpg?h=58ad818e&itok=iNnR8_Zk"  alt></a>
+                      <a href="https://www.opera-lyon.com/fr"><img src="https://vivrelyon.net/wp-content/uploads/2019/02/OperaArchitectureFacade_Lyon_copyrightStofleth-1.jpg"  alt></a>
+                      <img src="https://medias.liberation.fr/photo/1199528-palais-garnier-1-c-jean-pierre-delagarde-opera-national-de-parisjpg.jpg?modified_at=1551376301"   alt>
+                      <img src="https://www.maisondelaradio.fr/sites/default/files/styles/full_width_932/public/assets/images/Op%C3%A9ra%20Comedie_montpellier.jpg?itok=_RXp0bej"   alt>
+                    </figure>
+                </div>
 
-                        <ul class="MusiSectUlAsideSalle">
+                    <h1 class="MusiSectActiCarou" id="MusiSectActiCarou2">Activités liées</h1>
 
-                            <li class="MusiSectAsideLiSalle1">Salle1</li>
-                            <li class="MusiSectAsideLiSalle2">Salle2</li>
-                            <li class="MusiSectAsideLiSalle3">Salle3</li>
-
-                        </ul>
-
-                </aside>
-
-            </section>
-
-            <section class="MusiSectInfoCarou">
-
-                <article class="MusiSectCarousel"></article>
-
-                    <h1 class="MusiSectActiCarou">Activités liées</h1>
-
-                        <p class="MusicSectActiPara">LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem</p>
-                
+                        <p class="MusicSectActiPara" id="paraMusi2">La salle de l'opéra de Lyon permet</p>
+            
                 <aside class="MusiSectAside">
 
                     <h1 class="MusiSectH1Info">Infos pratiques</h1>
 
                         <ul class="MusiSectUl">
 
-                            <li class="MusiSectMapsLi">maps</li>
-                            <li class="MusiSectHorairesLi">horaires</li>
-                            <li class="MusiSectLiensLi">lien du site</li>
-                            <li class="MusiSectTelLi">téléphones</li>
+                            <li class="MusiSectMapsLi"><a href="https://goo.gl/maps/GuJakfNqk2EF1jxQ8" title="La map">maps</a></li>
+                            <li class="MusiSectHorairesLi"><a href="https://www.opera-lyon.com/fr/calendar" title="L'agenda">L'agenda</a></li>
+                            <li class="MusiSectLiensLi"><a href="https://www.opera-lyon.com/fr" title="Lien du site">lien du site</a></li>
+                            <li class="MusiSectTelLi">Tél: 04 69 85 54 54</li>
 
                         </ul>
 
                 </aside>
+                </section>
+            </section>
+               
         </main>
 
-    <footer>
+        <footer>
+            <div>
+                <a href=#><img src="https://i.imgur.com/d2eEvLw.png" alt="Logo_TDL" id="logoFooter"></a>
+            </div>
+
+            <nav class="navListeFooter">
+                <ul class="listeFooter">
+                    <li><a href="index.html" title="lien vers le menu" class="texteFooter">Trouver mon activité</a></li>
+                    <li><a href="index.html" title="lien vers le sondage" class="texteFooter">Sondage</a></li>
+                    <li><a href="#" title="lien vers les mentions légales" class="texteFooter">Mentions légales</a></li>
+                    <li><a href="#" title="lien vers la FAQ" class="texteFooter">FAQ</a></li>
+                </ul>
+            </nav>
+            <div id="thirdcolumn">
+                <nav id="navSocialNetworks">
+                    <h2 id="followUs" class="texteFooter">Nous suivre:</h1>
+                    <ul class="socialNetworks">
+                        <li><a href="https://twitter.com" title="lien vers notre profil Twitter"><img class="twitter" src="https://www.bassin-arcachon.com/wp-content/uploads/2017/02/logo-twitter-bleu.png" alt="Logo_Twitter"></a></li>
+                        <li><a href="https://facebook.com" title="lien vers notre profil Facebook"><img class="facebook" src="https://cdn.icon-icons.com/icons2/159/PNG/256/facebook_22567.png" alt="Logo_FB"></a></li>
+                        <li><a href="https://instagram.com" title="lien vers notre profil instagram"><img class="instagram" src="https://www.followerspascher.com/wp-content/uploads/2016/06/1466927228_social-instagram-new-circle.png" alt="Logo_instagram"></a></li>
+                    </ul>
+                </nav>
+
+                <div id="research">
+                    <form>
+                        <input class="caseFooter" type="search" id="site-search" name="q" aria-label="Search through site content">
+                        <button type="submit" class="caseFooter">Rechercher</button>
+                    </form>
+                </div>
+            </div>
+        </footer>
+    <!--<footer>
         <nav>
             <ul>
                 <li><a href="#" title="notre mascotte">"<img class="" src="" alt="Logo_TDL"></li>
-                <li><a href="URL_FAQ" title="FAQ"><img src="" alt="image_FAQ"></a></li> <!-- ajouter URL FAQ -->
-                <li><a href="#Categories" title="lien vers le menu">Trouver mon activité</a></li>
+                <li><a href="URL_FAQ" title="FAQ"><img src="" alt="image_FAQ"></a></li> ajouter URL FAQ -->
+               <!-- <li><a href="#Categories" title="lien vers le menu">Trouver mon activité</a></li>
                 <li><a href="URL_sondage" title="lien vers le sondage">Sondage</a></li>
                 <li><a href="#" title="lien vers les mentions">Mentions légales</a></li>
                 <li><a href="https://twitter.com" title="lien vers notre profil Twitter"><img class="" src="" alt="Logo_Twitter"></a></li>
@@ -98,9 +206,7 @@
                 <li><a href="https://instagram.com" title="lien vers notre profil instagram"><img class="" src="" alt="Logo_instagram"></a></li>
             </ul>
         </nav>
-    </footer>
-
-    <script src="projet.js"></script>
+    </footer>-->
 
 </body>
 
