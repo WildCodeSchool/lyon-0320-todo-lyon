@@ -1,0 +1,508 @@
+/** {
+   margin: auto;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+header, footer {
+    background-color: aqua;
+}
+
+body {
+    background-color: greenyellow;
+}*/
+
+
+
+ 
+/* html {
+    height: 100%;
+}
+
+body {
+	margin: 0;
+	min-height: 100%;
+	display: flex;
+    flex-direction: column;
+} */
+
+/* footer {
+  display: flex;
+  background: #889e81;
+  margin-top: 0;
+} */
+
+/* nav .listeFooter {
+	list-style: none;
+  	justify-content: center;
+} */
+
+/* .logoFooter {
+  width: 20%;
+  height: 10%;
+} */
+
+li {
+
+    list-style-type: none;
+    padding-left: 11px;
+}
+
+main {
+
+    background-color: #bac7a7;
+    font-family: 'Bellota', cursive;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 15px black;
+}
+
+
+
+
+/* aside {
+
+    border: 1px solid black;
+} */
+
+.MusiSectParaSalle, .MusiSectParaSalle {
+
+    margin-top: 50px;
+}
+
+.MusiSectPrincipale, .MusiSectInfoCarou {
+
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.MusiSectUlAsideSalle {
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.MusiSectUl {
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.MusiSectInfoCarou, .MusiSectAsideSalle {
+
+    margin-bottom: 125px;
+}
+
+.MusiSectSalleBas, .MusiSectH1Salle {
+
+    margin-Top: 125px;
+}
+
+.barre {
+
+    border: 1px dashed black;
+}
+
+.boutonHaut {
+
+    position: fixed;
+    left: 90vw;
+    top: 50px;
+    width: 30px;
+    height: 30px;
+    /* padding-top: 1px; */
+    border: 2px solid black;
+    background-color: #e6a157;
+    box-shadow: 5px 5px 7px black;
+    border-radius: 16px;
+    color: rgb(39, 82, 39);
+}
+
+div.firstSectionSport figure img {
+    width: 100%;
+    height: 70vh;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+
+
+
+
+
+/* article.MusiSectCarousel {
+    max-width: 500vh;
+    overflow: hidden;
+} 
+
+article.MusiSectCarousel figure {
+    position: relative;
+    width: 505%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    animation: 6s AutoSlide infinite;
+  }  
+
+@keyframes AutoSlide {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -200vh; }
+    45% { left: -103%; }
+    50% { left: -201%; }
+    70% { left: -205%; }
+    75% { left: -305%; }
+    95% { left: -305%; }
+    100% { left: 0%; }
+  }  
+  
+article.MusiSectCarousel figure img {
+    width: 150vh;
+    height: 450px;
+ } */
+
+
+
+/* Section Slogan */
+
+#slogan {
+	border-radius: 10px;
+	max-width: 95%;
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+  	max-height: 330px;
+  	box-shadow: 5px 5px 2px #BAC7A7;
+}
+
+.title_slogan {
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+	color: #e6a157;
+	font-size: 36px;
+}
+
+.parIntro {
+	font-family: 'Bellota', cursive;
+}
+
+ @font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?nt6rip');
+    src:  url('fonts/icomoon.eot?nt6rip#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?nt6rip') format('truetype'),
+      url('fonts/icomoon.woff?nt6rip') format('woff'),
+      url('fonts/icomoon.svg?nt6rip#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    /* speak: none; */
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-s:before {
+    content: "\e986";
+  }
+  .icon-f:before {
+    content: "\ea90";
+  }
+  .icon-i:before {
+    content: "\ea92";
+  }
+  .icon-t:before {
+    content: "\ea96";
+  }
+  
+
+
+/* FOOTER COMMUN A L'ENSEMBLE DES PAGES HTML */
+
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+a {
+	text-decoration: none;
+}
+
+footer {
+	background: #889e81;
+	/* display: flex; */
+	margin-top: auto;
+	height: 5%;
+	align-items: center;
+	border-top: 3px solid #e6a157;
+}
+
+
+#logoFooter {
+	width: 100px;
+	height: 100px;
+	margin-left: 25%;
+}
+
+.navListeFooter {
+	width: 70%;
+    display: flex;
+	margin-left: 15%
+}
+
+.listeFooter {
+	width: 200px;
+	line-height: 40px;
+	margin-left: 30px;
+}
+
+.listeFooter a {
+	text-decoration: none;
+	color: #e5e4cc;
+}
+
+.texteFooter {
+	font-family: 'Bellota', cursive;
+	font-size: 16px;
+	color: #e5e4cc;
+}
+
+button {
+	font-family: 'Bellota', cursive;
+}
+
+.texteFooter:hover {
+	color: #e6a157;
+	font-weight: bold;
+}
+
+.listeFooter, .socialNetworks {
+	list-style: none;
+	text-align: center;
+}
+
+.navSocialNetworks {
+	width: 100%;
+}
+
+#followUs {
+	text-align: center;
+	margin-top: 5%;
+}
+
+.socialNetworks {
+	display: flex;
+	padding: 0;
+	margin-left: 40px;
+}
+
+
+.facebook, .twitter, .instagram {
+	width: 25px;
+	height: 25px;
+	margin-right: 30px;
+}
+
+#thirdcolumn {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: -260px; */
+    width: 70%;
+}
+
+form {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#research {
+	margin-bottom: 10%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+
+.caseFooter {
+	width: 80%;
+	margin-bottom: 5%;
+}
+
+
+/* Media queries Footer */
+
+/* HEADER COMMUN A L'ENSEMBLE DES PAGES HTML */
+
+header {
+	background: #889e81;
+	display: flex;
+	border-bottom: 2px #e6a157 solid;
+	margin-bottom: 2%;
+}
+
+.navHeader {
+	width: 100%;
+	display: flex;
+}
+
+.ulHeader {
+	display: flex;
+	align-items: flex-end;
+	width: 100%;
+	margin-left: 7%;
+}
+
+.liHeader {
+	list-style: none;
+	font-family: 'Bellota', cursive;
+	color: #e5e4cc;
+	margin-left: 5%;
+}
+
+.liHeader a {
+	color: #e5e4cc;
+	text-decoration: none;
+	line-height: 20px;
+}
+
+.liHeader a:hover {
+	color: #e6a157;
+}
+
+.mainTitleHeader {
+	position: absolute;
+	left: 40%;
+	font-family: 'Pacifico', cursive;
+	color: #e6a157;
+}
+
+.couleurSousHeader {
+	background: #bac7a7;
+}
+
+.logoHeader {
+	margin-left: 10%;
+	margin-top: 5%;
+	width: 100px;
+	height: 100px;
+}
+
+/* Responsive HEADER */
+
+@media only screen and (max-width: 800px) {
+	nav .ulHeader {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.ulHeader {
+	flex-direction: column;
+	align-items: center;
+	margin-top: 50px;
+	margin-right: 80px;
+}
+
+	header {
+		height: 200px;
+	}
+
+	main {
+		margin-top: 0
+	}
+
+	.logoHeader {
+		position: absolute;
+		margin-left: 6%;
+		margin-top: 5%;
+		width: 100px;
+		height: 100px;
+	}
+}
+
+
+
+
+@media screen and (min-width: 900px) {
+
+    nav .listeFooter {
+		display: flex;
+	}
+
+	.navListeFooter {
+		width: 100%;
+		margin-left: 10%;
+	}
+
+
+	.listeFooter {
+		width: 100%;
+		padding-left: 0;
+		margin-left: 5%;
+	}
+
+	.listeFooter li {
+		margin-left: 5%;
+	}
+
+	#thirdcolumn {
+		width: 50%;
+	}
+
+
+
+ div.firstSectionSport {
+    max-width: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+  div.firstSectionSport figure {
+    position: relative;
+    width: 505%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    animation: 16s AutoSlide infinite;
+  }
+  @keyframes AutoSlide {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -102%; }
+    45% { left: -103%; }
+    50% { left: -201%; }
+    70% { left: -205%; }
+    75% { left: -305%; }
+    95% { left: -305%; }
+    100% { left: 0%; }
+  }  div.firstSectionSport figure img {
+    width: 20%;
+    height: 700px;
+ }
+ .boutonHaut {
+
+    display: none;
+ }
+}
