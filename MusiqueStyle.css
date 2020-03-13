@@ -453,8 +453,8 @@ header {
 	}
 
 	.navListeFooter {
-		width: 100%;
-		margin-left: 10%;
+		/* width: 100%; */
+	    margin-left: 10%;
 	}
 
 
