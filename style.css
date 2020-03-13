@@ -305,7 +305,6 @@ header {
 	background: #889e81;
 	display: flex;
 	border-bottom: 2px #e6a157 solid;
-	margin-bottom: 2%;
 }
 
 .navHeader {
@@ -344,6 +343,7 @@ header {
 	left: 40%;
 	font-family: 'Pacifico', cursive;
 	color: #e6a157;
+	margin-top: 0;
 }
 
 .couleurSousHeader {
@@ -371,7 +371,7 @@ header {
 	align-items: center;
 	margin-top: 50px;
 	margin-right: 80px;
-	padding-top: 10px;
+	padding-top: 5px;
 }
 
 
@@ -441,11 +441,12 @@ p
 	list-style: none;
 }
 
-.lien-nav-cine
+.lien-activite a
 {
 	text-decoration: none;
 	list-style: none;
 	color: black;
+	margin-bottom: 5px;
 }
 
 .infoPratiquesCinema a
@@ -459,9 +460,10 @@ p
 	margin: 10px;
 }
 
-.lien-nav-cine:hover
+.lien-activite a:hover
 {
 	color: #e6a157;
+	cursor: pointer;
 }
 
 .infoPratiquesCinema a:hover
@@ -469,7 +471,7 @@ p
 	color: #e6a157;
 }
 
-.lien-activite
+.lien-nav-cine
 {
 	background-color:#bac7a7;
 	padding: 10px;
@@ -620,6 +622,12 @@ p
 	.titreH2Cinema
 	{
 		text-align: center;
+	}
+
+	.infoPratiquesCinema p
+	{
+		margin-right: 50px;
+		margin-left: 50px;
 	}
 
 }
@@ -817,12 +825,10 @@ form {
 
 #Contact  {
     width: 100%;
-    height: 520px;
     display: flex;
     flex-direction: column;
     align-items: center;
 	padding-top: 20px;
-	margin-bottom: 150px;
 	font-family: 'Pacifico', cursive;
 }
 
