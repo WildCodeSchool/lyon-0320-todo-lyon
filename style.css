@@ -145,9 +145,6 @@ visibility: visible;
 }
 
 
-
-
-
 /* PAGE SPORT */
 
 /* Section Carousel (1ère section) */
@@ -184,12 +181,32 @@ div.firstSectionSport {
 
 /* Seconde section page sport */
 
+.divMainTitleSport {
+	height: 80px;
+	background: #889e81;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.divSecondTitleSport {
+	height: 70px;
+	width: 150px;
+	background: #889e81;
+	border-radius: 10px;
+}
+
 .secondSectionSport {
 	width: 90%;
 	margin: 5% 5% 5% 5%;
 	border: 2px #889e81 solid;
 	border-radius: 10px;
 	background: #e5e4cc;
+}
+
+.blocSousSecondTitle {
+	margin-top: 40px;
 }
 
 .articleSport {
@@ -217,12 +234,31 @@ div.firstSectionSport {
 }
 
 #mainTitleSport {
-	text-align:center;
+	text-align: center;
+	background-color: #889e81;
+	height: 10%;
+	padding-bottom: 3%;
 }
 
-#mainTitleSport, .secondTitleSport, .thirdTitleSport {
+#mainTitleSport:hover {
+	color: #e6a157;
+}
+
+#mainTitleSport, .secondTitleSport, .secondTitleSportQuotidien, .thirdTitleSport {
 	text-align: center;
 	font-family: 'Pacifico', cursive;
+}
+
+.secondTitleSportQuotidien {
+	margin-top: 10%;
+}
+
+.secondTitleSport {
+	margin-bottom: 30px;
+}
+
+.secondTitleSportQuotidien:hover, .secondTitleSport:hover {
+	color: #e6a157;
 }
 
 .descriptionSport {
@@ -241,19 +277,97 @@ div.firstSectionSport {
 }
 
 .mapSports {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-	margin-bottom: 10px;
+	display: none;
 }
 
-/* Media queries page Sport */
+/* HEADER COMMUN A L'ENSEMBLE DES PAGES HTML */
 
+header {
+	background: #889e81;
+	display: flex;
+	border-bottom: 2px #e6a157 solid;
+	margin-bottom: 2%;
+}
 
+.navHeader {
+	width: 100%;
+	display: flex;
+}
 
+.ulHeader {
+	display: flex;
+	align-items: flex-end;
+	width: 100%;
+	margin-left: 7%;
+}
 
+.liHeader {
+	list-style: none;
+	font-family: 'Bellota', cursive;
+	color: #e5e4cc;
+	margin-left: 5%;
+}
+
+.liHeader a {
+	color: #e5e4cc;
+	text-decoration: none;
+	line-height: 20px;
+}
+
+.liHeader a:hover {
+	color: #e6a157;
+}
+
+.mainTitleHeader {
+	position: absolute;
+	left: 40%;
+	font-family: 'Pacifico', cursive;
+	color: #e6a157;
+}
+
+.couleurSousHeader {
+	background: #bac7a7;
+}
+
+.logoHeader {
+	margin-left: 10%;
+	margin-top: 5%;
+	width: 100px;
+	height: 100px;
+}
+
+/* Responsive HEADER */
+
+@media only screen and (max-width: 800px) {
+	nav .ulHeader {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.ulHeader {
+	flex-direction: column;
+	align-items: center;
+	margin-top: 50px;
+	margin-right: 80px;
+}
+
+	header {
+		height: 200px;
+	}
+
+	main {
+		margin-top: 0
+	}
+
+	.logoHeader {
+		position: absolute;
+		margin-left: 6%;
+		margin-top: 5%;
+		width: 100px;
+		height: 100px;
+	}
+}
 
 
 /* FOOTER COMMUN A L'ENSEMBLE DES PAGES HTML */
@@ -307,13 +421,13 @@ footer {
 }
 
 .texteFooter {
-	font-family: 'Pacifico', cursive;
+	font-family: 'Bellota', cursive;
 	font-size: 16px;
 	color: #e5e4cc;
 }
 
 button {
-	font-family: 'Pacifico', cursive;
+	font-family: 'Bellota', cursive;
 }
 
 .texteFooter:hover {
@@ -570,7 +684,12 @@ h4{
 
 @media only screen and (min-width: 1000px) {
 	.mapSports {
-		display: none;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		margin-bottom: 10px;
 	}
 
 	.divSectionSports {
